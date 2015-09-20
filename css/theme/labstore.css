@@ -194,6 +194,7 @@ body {
   z-index: 30;
   left: 10px!important;
   bottom: 10px;
+  opacity:1;
 }
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
@@ -225,6 +226,9 @@ body {
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #71e9f4; }
 
+.reveal .controls div.enabled {
+    opacity: 1;
+}
 /*********************************************
  * PROGRESS BAR
  *********************************************/
@@ -247,4 +251,31 @@ body {
 /* Custom */
 body {
   background:black url(../../images/bg.png) no-repeat center center;
+}
+
+.labstore-logo{
+  background: url(../../images/labstore-logo.png) no-repeat;
+  background-size:100% 100%;
+  width: 150px;
+  height: 65px;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9999;
+}
+
+/* slide-number */
+.reveal .slide-number{
+  position: fixed;
+  display: block;
+  left: 100px;
+  bottom: 57px;
+  z-index: 31;
+  font-size: 18px;
+  opacity:1;
+}
+
+.reveal .slide-number{
+  color:white;
 }
