@@ -279,3 +279,9 @@ body {
 .reveal .slide-number{
   color:white;
 }
+
+/* video */
+.reveal video{
+  max-height:60%;
+  max-width:60%;
+}
