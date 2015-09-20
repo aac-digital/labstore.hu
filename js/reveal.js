@@ -2481,7 +2481,7 @@
 			}
 
 			dom.slideNumber.innerHTML = format.replace( /h/g, indexh )
-												.replace( /v/g, indexv )
+												.replace( /v/g, indexv + 1 )
 												.replace( /c/g, getSlidePastCount() + 1 )
 												.replace( /t/g, getTotalSlides() );
 		}
