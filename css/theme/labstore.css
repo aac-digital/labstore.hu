@@ -280,8 +280,24 @@ body {
   color:white;
 }
 
-/* video */
+/* video slide */
 .reveal video{
   max-height:60%;
   max-width:60%;
+}
+
+.reveal .progress{
+  position: fixed;
+  display: none;
+  height: 6px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background:white;
+}
+
+/* progress bar */
+.reveal .progress span {
+  background: #13daec;
 }
